@@ -28,7 +28,7 @@ import threading
 
 # UPDATE_IF_PYTHON_VERSION_ADDED_OR_REMOVED : search for this string in codebase 
 # when support for a Python version must be added or removed
-_supported_versions = ['2_7', '3_8', '3_9', '3_10']
+_supported_versions = ['2_7', '3_8', '3_9', '3_10', '3_11']
 _ver = sys.version_info
 _version = '{0}_{1}'.format(_ver[0], _ver[1])
 _PYTHONVERSION = None
